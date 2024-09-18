@@ -1,8 +1,12 @@
 import javax.swing.*;
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class ArrayAdyacentes {
+
     public static void main(String[] args) {
         int resultadoAdyacente = 0;
         int valorMax = 0;
@@ -16,6 +20,9 @@ public class ArrayAdyacentes {
             }
         }
         System.out.println(valorMax);
+
     }
+
+
 
 }
