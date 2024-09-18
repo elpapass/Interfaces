@@ -16,7 +16,7 @@ public class sigloRomano {
             int resultadoTotalSiglo = ano / siglo + 1;
             System.out.printf("el siglo es : %d", resultadoTotalSiglo);
 
-            //DENOMINACION A NUMERO ROMANO
+            //DENOMINACION DE SIGLOS A NUMERO ROMANO
             System.out.println("\n");
             populateMap();
             System.out.println("Este seria siglo en numeros romanos: "+romanize(resultadoTotalSiglo));
